@@ -14,6 +14,9 @@ Analyze sales data to identify trends, top-selling products, and revenue metrics
 
 This report delves into a comprehensive analysis of the Sales dataset provided by MeriSkill. The dataset spans from January 1, 2019, to January 1, 2020, and includes information about product sales, quantities, revenue and geographic data.
 
+### Description:
+In this project, I’ll will dive into a large sales dataset to extract valuable insights. I will explore sales trends over time, identify the best-selling products, calculate revenue metrics such as total sales and average order value and create visualizations to present my findings effectively. This project showcases my ability to manipulate and derive insights from large datasets, enabling me to make data-driven recommendations for optimizing sales strategies.
+
 ## 📚 Table of Contents
 Please find the resource links for the project below:
 - [Resource](https://github.com/5ifar/)
