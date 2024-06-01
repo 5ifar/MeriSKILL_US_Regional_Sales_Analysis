@@ -15,4 +15,7 @@ I analyzed sales data to identify trends, top-selling products and revenue metri
 
 ## 📚 Table of Contents
 Please find the resource links for the project below:
-- [Resource](https://github.com/5ifar/)
+- [MeriSKILL Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/MeriSKILL%20Raw%20Data)
+- [Data Model](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Power%20BI%20Dashboard/Data%20Model.JPG)
+- [Project Implementation](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Project%20Implementation/Documentation.md)
+- [Dashboard Link]
