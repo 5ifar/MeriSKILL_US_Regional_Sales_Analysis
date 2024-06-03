@@ -32,3 +32,17 @@
 1. New Source → Blank Query → Custom M Code: `= {Number.From(#date(2019,1,1))..Number.From(#date(2020,1,1))}` → Will create a list of date values → Convert to Table → Set Data type as Date → Rename column as Date
 2. Add columns → Day, Day Name, Start of Week, Start of Month & Month Name.
 3. Rename as dim_Date and Close & Apply changes to load data to PBI Frontend.
+
+## Phase 2: Data Modelling & Calculated Columns
+
+### Step 1: Creating Table Relationships
+
+- A robust data model was established, linking key tables to enable efficient analysis.
+
+|Primary Key (Dimension table) (1)||Secondary Key (Fact table) (*)|
+|-|-|-|
+|Date (dim_date)|→|Orderdate (fact_Sales)|
+|Location Key (dim_Location)|→|Location Key (fact_Sales)|
+|Product Key (dim_Product)|→|Product Key (fact_Sales)|
+
+<img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/aeb9cfc3-5eaa-49b3-9521-3d7f9e58c166" width="40%" height="40%">
