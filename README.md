@@ -16,6 +16,9 @@ This report delves into a comprehensive analysis of the sales dataset provided b
 
 I analyzed sales data to identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
 
+### Sales Data Columns:
+ORDER ID, PRODUCT, QUANTITY ORDERED, PRICE EACH, ORDER DATE, PURCHASE ADDRESS, MONTH, SALES, CITY, HOUR
+
 ## 📚 Table of Contents
 Please find the resource links for the project below:
 - [MeriSKILL Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/MeriSKILL%20Raw%20Data)
