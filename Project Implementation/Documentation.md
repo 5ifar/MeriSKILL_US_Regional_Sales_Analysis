@@ -59,3 +59,19 @@
 
 - To collect all report measures in a single place we’ll create a measures table to store all the measures together.
 - Data View → Enter Data → Rename as measure.
+
+### Step 3: Basic Measures
+
+- `Revenue = SUM(fact_Sales[Sales])`
+- `Total Orders = DISTINCTCOUNT(fact_Sales[Order ID])`
+- `Total Qty Sold = SUM(fact_Sales[Quantity Ordered])`
+- `Avg Order Value = [Revenue] / [Total Orders]`
+
+### Step 4: Revenue by Month  Visual
+
+- Create a Area Chart visual with Months on the X Axis and Revenue measure on the Y Axis.
+- Filter out the Jan 2020 data using visual level filters to avoid unusual trend due to incomplete data.
+- To create a Chronological order for the months, follow these steps:
+
+  Select the column containing the months → Navigate to the "Column Tools" and choose "Sort Column." → Select "Sort by Month Number" to sort the months in chronological order.
+- Add Week and Date field to the X Axis to enable Data drilling. Setup zoom slider to view drilled data better.
