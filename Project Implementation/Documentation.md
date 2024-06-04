@@ -4,6 +4,7 @@
 
 ## Table of Contents
 - [Phase 1: ETL with Power Query](#phase-1-etl-with-power-query)
+- [Phase 2: Data Modelling & Calculated Columns](#phase-2-data-modelling--calculated-columns)
 
 ---
 
@@ -46,3 +47,15 @@
 |Product Key (dim_Product)|→|Product Key (fact_Sales)|
 
 <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/aeb9cfc3-5eaa-49b3-9521-3d7f9e58c166" width="40%" height="40%">
+
+## Phase 3: Home View - Visualization
+
+### Step 1: Configure Slicers
+
+- Add a Product Slicer with Multi-Select enabled and Select All option shown.
+- Add a City Slicer with Multi-Select enabled and Select All option shown.
+
+### Step 2: Creating Measures Table
+
+- To collect all report measures in a single place we’ll create a measures table to store all the measures together.
+- Data View → Enter Data → Rename as measure.
