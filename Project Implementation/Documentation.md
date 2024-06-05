@@ -5,6 +5,7 @@
 ## Table of Contents
 - [Phase 1: ETL with Power Query](#phase-1-etl-with-power-query)
 - [Phase 2: Data Modelling & Calculated Columns](#phase-2-data-modelling--calculated-columns)
+- [Phase 3: Home View](#phase-3-home-view)
 
 ---
 
@@ -48,7 +49,7 @@
 
 <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/aeb9cfc3-5eaa-49b3-9521-3d7f9e58c166" width="40%" height="40%">
 
-## Phase 3: Home View - Visualization
+## Phase 3: Home View
 
 ### Step 1: Configure Slicers
 
@@ -67,7 +68,7 @@
 - `Total Qty Sold = SUM(fact_Sales[Quantity Ordered])`
 - `Avg Order Value = [Revenue] / [Total Orders]`
 
-### Step 4: Revenue by Month  Visual
+### Step 4: Revenue by Month Visual
 
 - Create a Area Chart visual with Months on the X Axis and Revenue measure on the Y Axis.
 - Filter out the Jan 2020 data using visual level filters to avoid unusual trend due to incomplete data.
@@ -75,3 +76,22 @@
 
   Select the column containing the months → Navigate to the "Column Tools" and choose "Sort Column." → Select "Sort by Month Number" to sort the months in chronological order.
 - Add Week and Date field to the X Axis to enable Data drilling. Setup zoom slider to view drilled data better.
+
+### Step 5: Revenue by States Visual and Custom Revenue - Avg Order Value Toggle
+
+- Add a Shape Map with State location data and Color legend gradient based on Revenue measure.
+- Set the Map Settings Projection to Albers USA and Zoom on selection.
+- Setup a toggle between Revenue and Avg Order Value measure fields using custom icon blank button.
+- Use the Toggle Setup to switch between US State Maps plotted against Revenue or Avg Order Value.
+
+### Step 6: Products by Revenue Visual
+
+- Create a Clustered Bar Chart visual with Product on Y Axis and Revenue on X Axis.
+- Filter out to display on the Top 5 Products by configuring a Top N Filter on the visual Product field based on Revenue field.
+- Duplicate the above visual and edit the filter to display the Bottom 5 Products by configuring a Top N Filter on the visual Product field based on Revenue field.
+
+### Step 7: Products by Quantity Sold Visual
+
+- Create a Clustered Bar Chart visual with Product on Y Axis and Total Qty Sold measure on X Axis.
+- Filter out to display on the Top 5 Products by configuring a Top N Filter on the visual Product field based on Total Qty Sold field.
+- Duplicate the above visual and edit the filter to display the Bottom 5 Products by configuring a Top N Filter on the visual Product field based on Total Qty Sold field.
