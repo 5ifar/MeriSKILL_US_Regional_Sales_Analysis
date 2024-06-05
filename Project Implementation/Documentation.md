@@ -6,6 +6,7 @@
 - [Phase 1: ETL with Power Query](#phase-1-etl-with-power-query)
 - [Phase 2: Data Modelling & Calculated Columns](#phase-2-data-modelling--calculated-columns)
 - [Phase 3: Home View](#phase-3-home-view)
+- [Phase 4: Insights View](#phase-4-insights-view)
 
 ---
 
@@ -35,6 +36,8 @@
 2. Add columns → Day, Day Name, Start of Week, Start of Month & Month Name.
 3. Rename as dim_Date and Close & Apply changes to load data to PBI Frontend.
 
+---
+
 ## Phase 2: Data Modelling & Calculated Columns
 
 ### Step 1: Creating Table Relationships
@@ -48,6 +51,8 @@
 |Product Key (dim_Product)|→|Product Key (fact_Sales)|
 
 <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/aeb9cfc3-5eaa-49b3-9521-3d7f9e58c166" width="40%" height="40%">
+
+---
 
 ## Phase 3: Home View
 
@@ -119,3 +124,40 @@ Quantity Sold Toggle Button → Action: Bookmark: Products by Revenue → Displa
 ### Step 11: Insights Button
 
 - Add an Information Icon button and set Button Action to Page Navigation to Insights View.
+
+---
+
+## Phase 4: Insights View
+
+### Step 1: Back Button
+
+- Add an Back Icon button and set Button Action to Page Navigation back to Home View.
+
+### Step 2: Insights and Findings
+
+Key findings from data trend analysis constitute insights into product preferences, sales trends, and regional variations. The Sales data revealed a significant spike in sales figures during December, which can be potentially attributed to the festive season.
+
+**Top Cities by Revenue:**
+
+- **San Francisco** (8.3M $) leads in revenue, possibly due to the in demand tech market and higher consumer spending power in the Silicon Valley.
+- **Los Angeles** (5.5M $) and **New York City** (4.7M $) follow, likely owing to their large population density and economic activity.
+
+**Top States by Order Value:**
+
+- **Georgia** state (196.1 $) boasts the highest Average Order Value despite being the 5th state by Revenue and Total Orders.
+- **California** state (192.1 $) lags behind as the 3rd lowest Average Order Value state despite being the highest state by Revenue and Total Orders.
+
+**Product Insights:**
+
+- Apple products, especially **MacBooks** (8M $) and **iPhones** (4.8M $) are the largest contributors to revenue, possibly due to high product demand and new product releases during year-end.
+- **AAA Battery** (31K) and **AA Battery** (28K) while sold in high quantities, generate less revenue (93K $ and 106K $ respectively) indicating lower product prices.
+- **Thinkpad Laptop** (4.1K) while sold in low quantity, generates the 3rd largest revenue (4.1M $) indicating higher product prices.
+
+**Sales by Month and Year:**
+
+- Sales peak in the month of **December**, aligning with the holiday season and gifting tradition.
+- An increase in **April** might suggest spring-related sales or promotions.
+
+**Sales by Time:**
+
+- Peaks at **12 PM** and **7 PM** suggest lunchtime and after-work hours as prime buying times. Further analysis could explore targeted marketing during these hours for enhanced sales.
