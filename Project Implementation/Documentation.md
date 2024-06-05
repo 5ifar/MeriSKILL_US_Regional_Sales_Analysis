@@ -95,3 +95,27 @@
 - Create a Clustered Bar Chart visual with Product on Y Axis and Total Qty Sold measure on X Axis.
 - Filter out to display on the Top 5 Products by configuring a Top N Filter on the visual Product field based on Total Qty Sold field.
 - Duplicate the above visual and edit the filter to display the Bottom 5 Products by configuring a Top N Filter on the visual Product field based on Total Qty Sold field.
+
+### Step 8: Custom Revenue - Quantity Sold Value Toggle
+
+- Setup a toggle between Revenue and Quantity Sold Value measure fields using custom icon blank button.
+- Create Bookmarks: Products by Revenue & Products by Quantity Sold.
+- Use the Toggle Setup Action to switch between Top and Bottom 5 Products plotted against Revenue or Quantity Sold Value.
+- Revenue Toggle Button → Action: Bookmark: Products by Quantity Sold → Displays the Top & Bottom 5 Products by Quantity Sold Visuals
+Quantity Sold Toggle Button → Action: Bookmark: Products by Revenue → Displays the Top & Bottom 5 Products by Revenue Visuals
+
+### Step 9: Sales Performance Matrix Visual
+
+- Create a Matrix visual with State and City as Row fields and Revenue, Total Orders and Avg Order Value measures as Value fields.
+- Format Revenue values in Millions and Total Orders values in Thousands.
+- Apply Data Bars and Font Color Formatting on Revenue and Avg Order Value Columns respectively.
+
+### Step 10: Slicers
+
+- Create Slicer visualizations by drag and drop the Product, City, Month & Day fields into the slicer option.
+- Display the slicer in a vertical list by accessing the slicer settings and choosing the option for a vertical column layout.
+- Add a Reset Button and configure the Button Action to Reset all the Slicers applied.
+
+### Step 11: Insights Button
+
+- Add an Information Icon button and set Button Action to Page Navigation to Insights View.
