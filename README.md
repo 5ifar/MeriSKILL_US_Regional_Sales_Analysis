@@ -3,11 +3,7 @@ This repository serves as my documentation for the MeriSKILL Sales Analysis - Po
 
 It was created as a learning project as part of my Internship assignment at: [MeriSKILL](https://sites.google.com/view/meriskill/home) during May - June 2024.
 
-It showcases my competancy to work with Microsoft Power BI and demonstrates my proficiency in essential Power BI concepts like ETL with Power Query, Data Modelling, DAX Measures, Conditional Formating etc........ 
-
-.......to be inserted.......
-
-This project showcases my ability to manipulate and derive insights from large datasets, enabling me to make data-driven recommendations for optimizing sales strategies.
+It showcases my competancy to work with Microsoft Power BI and demonstrates my proficiency in essential Power BI concepts like Data Profiling, ETL with Power Query, Semantic Data Modelling, DAX Measures & DAX Calculated Columns, Dashboard Designing, Visualization, Conditional Formating, Filters, Bookmarks, Page Navigation, Publishing and Report Optimization etc.
 
 The entire project has been implemented using Microsoft Power BI Desktop 2.128.751.0 and published on Microsoft Power BI Service.
 
