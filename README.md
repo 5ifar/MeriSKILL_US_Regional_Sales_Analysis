@@ -19,9 +19,14 @@ Please find the resource links for the project below:
 ---
 
 ### Purpose:
-This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill. The dataset spans from 1 January 2019 to 1 January 2020 and includes information about product sales, quantities, revenue and geographic data.
+This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
 
-I analyzed sales data to identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
+### About the Dataset:
+The original raw dataset spans from 1 January 2019 to 1 January 2020 and includes information about product sales, quantities, revenue and geographic data. It contains only 1 table with 10 columns and 1,85,950 rows.
+
+The data was later normalized into 3 tables - fact_Sales, dim_Product & dim_Location during project implementation. The cleaned dataset has - fact_Sales (1,85,950 rows), dim_Product (19 rows) & dim_Location (1,40,787 rows). Addional dim_Date table was created which has 365 rows.
+
+Data Overview: Year: 2019, Months: 12, Products: 19, States: 8, Cities: 9 & Addresses: 1,40,787.
 
 ### Sales Data Dictionary:
 |Column Name|Type|Description|
