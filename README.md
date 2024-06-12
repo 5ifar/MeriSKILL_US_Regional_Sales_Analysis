@@ -9,7 +9,7 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.128.7
 
 ---
 
-## Table of Contents
+## Table of Contents:
 Please find the resource links for the project below:
 - [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
 - [Data Model](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Power%20BI%20Dashboard/Data%20Model.JPG)
@@ -41,3 +41,43 @@ Data Overview: Year: 2019, Months: 12, Products: 19, States: 8, Cities: 9 & Addr
 |Sales|float|Sales order value|
 |City|char|City of product order|
 |Hour|int|Hour of product sale|
+
+---
+
+## Analysis Insights:
+Key findings from data trend analysis constitute insights into product preferences, sales trends, and regional variations. The Sales data revealed a significant spike in sales figures during December, which can be potentially attributed to the festive season.
+
+**I. Top Cities by Revenue:**
+
+- **San Francisco** (8.3M $) leads in revenue, possibly due to the in demand tech market and higher consumer spending power in the Silicon Valley.
+- **Los Angeles** (5.5M $) and **New York City** (4.7M $) follow, likely owing to their large population density and economic activity.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/149a9260-b241-4184-a905-05b12fb35b8c" width="40%" height="40%"> </div>
+
+**II. Top States by Order Value:**
+
+- **Georgia** state (196.1 $) boasts the highest Average Order Value despite being the 5th state by Revenue and Total Orders.
+- **California** state (192.1 $) lags behind as the 3rd lowest Average Order Value state despite being the highest state by Revenue and Total Orders.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/0be7a536-7d36-4518-9dae-79293de56665" width="40%" height="40%"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/51e66426-51c3-4617-9fdd-45948f10b893" width="41%" height="41%"> </div>
+
+**III. Product Insights:**
+
+- Apple products, especially **MacBooks** (8M $) and **iPhones** (4.8M $) are the largest contributors to revenue, possibly due to high product demand and new product releases during year-end.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/a17a3bd9-9cf4-4196-8fb2-94f10417e22f" width="40%" height="40%"> </div>
+
+- **AAA Battery** (31K) and **AA Battery** (28K) while sold in high quantities, generate less revenue (93K $ and 106K $ respectively) indicating lower product prices.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/27eeed52-067e-4e3c-9863-fb6fb6326fae" width="40%" height="40%"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/431305aa-256e-4dc4-b63b-74087c895220" width="40%" height="40%"> </div>
+
+- **Thinkpad Laptop** (4.1K) while sold in low quantity, generates the 3rd largest revenue (4.1M $) indicating higher product prices.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/4a67eb50-75cb-4059-bb8a-16db015b867d" width="40%" height="40%"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/d49b09d9-18c2-4137-ab9a-7836b2e363b6" width="40%" height="40%"> </div>
+
+**IV. Sales by Month and Year:**
+
+- Sales peak in the month of **December**, aligning with the holiday season and gifting tradition.
+- An increase in **April** might suggest spring-related sales or promotions.
+<div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/assets/146955609/e23df96d-5293-4b89-8f53-5b4f4066a2fc" width="40%" height="40%"> </div>
+
+**V. Sales by Time:**
+
+- Peaks at **12 PM** and **7 PM** suggest lunchtime and after-work hours as prime buying times. Further analysis could explore targeted marketing during these hours for enhanced sales.
+
+---
