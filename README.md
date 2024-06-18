@@ -1,4 +1,7 @@
 # <img src="https://media.licdn.com/dms/image/D4D0BAQFONtccW6kb_Q/company-logo_200_200/0/1692808405632?e=2147483647&v=beta&t=5-c1hlCyZ6eWKCDV5g9-B9tiZcc9GRE2MkQVg-vCmv8" width="6%" height="6%"> MeriSKILL - Sales Analysis
+
+<img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Assets/MeriSKILL%20Repo%20Banner.jpg" width="100%" height="100%">
+
 This repository serves as my documentation for the MeriSKILL Sales Analysis - Power BI Project.
 
 It was created as a learning project as part of my Internship assignment at: [MeriSKILL](https://sites.google.com/view/meriskill/home) during May - June 2024.
