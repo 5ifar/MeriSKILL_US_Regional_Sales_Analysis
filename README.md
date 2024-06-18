@@ -66,6 +66,13 @@ ROCCC Evaluation:
 
 ---
 
+## Data Model:
+### Entity Relationship Diagram (ERD):
+
+<img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Assets/MeriSKILL%20Sales%20Analysis%20Data%20Model.JPG" width="100%" height="100%">
+
+---
+
 ## Analysis Insights:
 Key findings from data trend analysis constitute insights into product preferences, sales trends, and regional variations. The Sales data revealed a significant spike in sales figures during December, which can be potentially attributed to the festive season.
 
