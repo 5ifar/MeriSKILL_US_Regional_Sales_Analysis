@@ -1,4 +1,4 @@
-# <img src="https://media.licdn.com/dms/image/D4D0BAQFONtccW6kb_Q/company-logo_200_200/0/1692808405632?e=2147483647&v=beta&t=5-c1hlCyZ6eWKCDV5g9-B9tiZcc9GRE2MkQVg-vCmv8" width="6%" height="6%"> MeriSKILL - Sales Analysis
+# <img src="https://media.licdn.com/dms/image/D4D0BAQFONtccW6kb_Q/company-logo_200_200/0/1692808405632?e=2147483647&v=beta&t=5-c1hlCyZ6eWKCDV5g9-B9tiZcc9GRE2MkQVg-vCmv8" width="4%" height="4%"> MeriSKILL - Sales Analysis
 
 <div align="center"> <img src="https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Assets/MeriSKILL%20Repo%20Banner.jpg" width="900px" height="600px"> </div>
 
@@ -12,6 +12,9 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.128.7
 
 ---
 
+## Purpose:
+This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
+
 ## Table of Contents:
 Please find the resource links for the project below:
 - [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
@@ -19,12 +22,20 @@ Please find the resource links for the project below:
 - [Project Implementation](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Project%20Implementation/Documentation.md)
 - [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 
----
+## Tools used:
+1. Microsoft Power BI: for Data Cleaning, Data Analysis, Data Visualization & Dashboarding
+2. GitHub - for Documentation
 
-### Purpose:
-This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
+## Skills & Methodologies implemented:
+1. Data Cleaning: Power Query
+2. Data Manipulation: DAX Measures & Columns
+3. Data Modelling and Normalization
+4. Data Visualization
+5. Dashboarding: Filters, Custom Icon Buttons, Bookmarks, Page Navigation
+6. Report Publishing and Report Optimization
+7. Documentation
 
-### About the Dataset:
+## About the Dataset:
 The original raw dataset spans from 1 January 2019 to 1 January 2020 and includes information about product sales, quantities, revenue and geographic data. It contains only 1 table with 10 columns and 1,85,950 rows.
 
 The data was later normalized into 3 tables - fact_Sales, dim_Product & dim_Location during project implementation. The cleaned dataset has - fact_Sales (1,85,950 rows), dim_Product (19 rows) & dim_Location (1,40,787 rows). Addional dim_Date table was created which has 365 rows.
@@ -44,6 +55,14 @@ Data Overview: Year: 2019, Months: 12, Products: 19, States: 8, Cities: 9 & Addr
 |Sales|float|Sales order value|
 |City|char|City of product order|
 |Hour|int|Hour of product sale|
+
+## Data Integrity:
+ROCCC Evaluation:
+- Reliability: LOW - The raw dataset is created and updated by MeriSKILL. It has only 1 file.
+- Originality: MED - First party provider (MeriSKILL)
+- Comprehensiveness: LOW - Only 1 CSV File was provided. Dataset contains few parameters for Products & Location.
+- Current: LOW - Dataset was created on 2019, almost 5 years old. So its very obsolete & not very relevant.
+- Citation: LOW - No official citation/reference available.
 
 ---
 
