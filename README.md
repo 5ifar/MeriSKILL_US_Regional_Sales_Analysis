@@ -17,10 +17,12 @@ This report delves into a comprehensive analysis of the sales dataset provided b
 
 ## Table of Contents:
 Please find the resource links for the project below:
-- [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
+- [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- [Analysis Insights](#analysis-insights)
+- [Data-driven Recommendations](#data-driven-recommendations)
 - [Data Model](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Power%20BI%20Dashboard/Data%20Model.JPG)
 - [Project Implementation](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Project%20Implementation/Documentation.md)
-- [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
 
 ## Tools used:
 1. Microsoft Power BI: for Data Cleaning, Data Analysis, Data Visualization & Dashboarding
