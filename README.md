@@ -15,7 +15,7 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.128.7
 ## Purpose:
 This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
 
-## Table of Contents:
+## Contents:
 Please find the resource links for the project below:
 - [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
 - [Analysis Insights](#analysis-insights)
