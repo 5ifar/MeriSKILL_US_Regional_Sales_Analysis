@@ -6,23 +6,25 @@ This repository serves as my documentation for the MeriSKILL Sales Analysis - Po
 
 It was created as a learning project as part of my Internship assignment at: [MeriSKILL](https://sites.google.com/view/meriskill/home) during May - June 2024.
 
-It showcases my competancy to work with Microsoft Power BI and demonstrates my proficiency in essential Power BI concepts like Data Profiling, ETL with Power Query, Semantic Data Modelling, DAX Measures & DAX Calculated Columns, Dashboard Designing, Visualization, Conditional Formating, Filters, Bookmarks, Page Navigation, Publishing and Report Optimization etc.
+It showcases my competancy to work with Microsoft Power BI and demonstrates my proficiency in essential Power BI concepts like **Data Profiling, ETL with Power Query, Semantic Data Modelling, DAX Measures & DAX Calculated Columns, Dashboard Designing, Visualization, Conditional Formating, Filters, Bookmarks, Page Navigation, Publishing and Report Optimization** etc.
 
 The entire project has been implemented using Microsoft Power BI Desktop 2.128.751.0 and published on Microsoft Power BI Service.
 
 ---
 
-## Purpose:
-This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
-
 ## Contents:
 Please find the resource links for the project below:
 - [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-- [Analysis Insights](#analysis-insights)
-- [Data-driven Recommendations](#data-driven-recommendations)
+- [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
 - [Data Model](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Power%20BI%20Dashboard/Data%20Model.JPG)
 - [Project Implementation](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Project%20Implementation/Documentation.md)
-- [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
+- [Analysis Insights](#analysis-insights)
+- [Data-driven Recommendations](#data-driven-recommendations)
+
+---
+
+## Purpose:
+This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
 
 ## Tools used:
 1. Microsoft Power BI: for Data Cleaning, Data Analysis, Data Visualization & Dashboarding
@@ -36,6 +38,8 @@ Please find the resource links for the project below:
 5. Dashboarding: Filters, Custom Icon Buttons, Bookmarks, Page Navigation
 6. Report Publishing and Report Optimization
 7. Documentation
+
+---
 
 ## About the Dataset:
 The original raw dataset spans from 1 January 2019 to 1 January 2020 and includes information about product sales, quantities, revenue and geographic data. It contains only 1 table with 10 columns and 1,85,950 rows.
