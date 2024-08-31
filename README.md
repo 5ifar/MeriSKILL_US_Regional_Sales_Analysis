@@ -12,16 +12,25 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.128.7
 
 ## Contents:
 Please find the sectional links for the project below:
-- [Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
-- [Sales Raw Data](https://github.com/5ifar/MeriSKILL_Sales_Analysis/tree/main/Sales%20Raw%20Data)
-- [Data Model](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Power%20BI%20Dashboard/Data%20Model.JPG)
+- [Live MeriSKILL US Regional Sales Analysis Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- [Project Objective](#project-objective)
+- [Tools used & Methodologies implemented](#tools-used)
+- [About the Dataset](#about-the-dataset)
+  - [Data Sources](https://github.com/5ifar/MeriSKILL_US_Regional_Sales_Analysis/tree/main/Sales%20Raw%20Data)
+  - [Sales Data Dictionary](#sales-data-dictionary)
+  - [Data Integrity](#data-integrity)
+- [Data Model](#data-model)
 - [Project Implementation](https://github.com/5ifar/MeriSKILL_Sales_Analysis/blob/main/Project%20Implementation/Documentation.md)
 - [Analysis Insights](#analysis-insights)
 - [Data-driven Recommendations](#data-driven-recommendations)
 
 ---
 
-## Purpose:
+## [Live MeriSKILL US Regional Sales Analysis Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+
+---
+
+## Project Objective:
 This report delves into a comprehensive analysis of the sales dataset provided by MeriSkill identify trends, top-selling products and revenue metrics aimed at extracting valuable insights to facilitate strategic data-driven business decision-making and create visualizations to present my findings effectively.
 
 ## Tools used:
