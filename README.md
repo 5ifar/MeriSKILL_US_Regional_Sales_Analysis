@@ -12,7 +12,7 @@ The entire project has been implemented using Microsoft Power BI Desktop 2.128.7
 
 ## Contents:
 Please find the sectional links for the project below:
-- [Live MeriSKILL US Regional Sales Analysis Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+- [MeriSKILL US Regional Sales Analysis Live Dashboard Link](https://mavenanalytics.io/project/19170)
 - [Project Objective](#project-objective)
 - [Tools used & Methodologies implemented](#tools-used)
 - [About the Dataset](#about-the-dataset)
@@ -26,7 +26,7 @@ Please find the sectional links for the project below:
 
 ---
 
-## [MeriSKILL US Regional Sales Analysis Live Dashboard Link](https://app.powerbi.com/view?r=eyJrIjoiZDgxZTkxMDEtN2JkMi00N2Y5LTgwY2ItMmJmNTNmZDEzNjMzIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+## [MeriSKILL US Regional Sales Analysis Live Dashboard Link](https://mavenanalytics.io/project/19170)
 
 ---
 
